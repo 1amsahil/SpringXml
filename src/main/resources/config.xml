@@ -6,7 +6,4 @@
     <bean id = "programmer" class = "com.Eternity.code.Programmer">
     </bean >
 
-    <bean id = "newProgrammer" class = "com.Eternity.code.Programmer">
-    </bean>
-
 </beans>
