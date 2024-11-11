@@ -3,7 +3,10 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id = "programmer" class = "com.Eternity.code.Programmer">
-    </bean >
+<!--    <bean id = "programmer" class = "com.Eternity.code.Programmer" scope="singleton">-->
+<!--    </bean>-->
+
+    <bean id = "programmer" class = "com.Eternity.code.Programmer" scope="prototype">
+    </bean>
 
 </beans>

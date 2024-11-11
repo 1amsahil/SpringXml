@@ -6,6 +6,7 @@ public class Programmer {
     {
         System.out.println("Object Created ");
     }
+    int age;
 
     public void code()
     {
