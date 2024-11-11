@@ -6,7 +6,8 @@
 <!--    <bean id = "programmer" class = "com.Eternity.code.Programmer" scope="singleton">-->
 <!--    </bean>-->
 
-    <bean id = "programmer" class = "com.Eternity.code.Programmer" scope="prototype">
+    <bean id = "programmer" class = "com.Eternity.code.Programmer">
+        <property name="age" value="25"> </property>
     </bean>
 
 </beans>
