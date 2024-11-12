@@ -3,16 +3,19 @@ package com.Eternity.code;
 public class Programmer {
 
     private int age;
+    Computer com;
 
-    public Programmer(int age, Laptop lap)
-    {
-        System.out.println("Para Constructor Called");
-        this.age = age;
-
-        lap.Compile();
+    public Computer getCom() {
+        return com;
     }
 
-    public int getAge() {
-        return age;
+    public void setCom(Computer com) {
+        this.com = com;
+    }
+
+    public void code()
+    {
+        System.out.println("Coding");
+        com.compile();
     }
 }

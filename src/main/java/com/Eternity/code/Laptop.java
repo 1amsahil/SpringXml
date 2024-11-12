@@ -1,9 +1,10 @@
 package com.Eternity.code;
 
-public class Laptop {
+public class Laptop implements Computer {
 
-    public void Compile()
+    @Override
+    public void compile()
     {
-        System.out.println("Compiling");
+        System.out.println("Compiling using Laptop");
     }
 }
