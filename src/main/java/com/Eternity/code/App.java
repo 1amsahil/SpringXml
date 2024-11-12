@@ -9,7 +9,9 @@ public class App
     {
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 
-        Programmer obj = (Programmer) context.getBean("programmer");
-        obj.code();
+//        Programmer obj= (Programmer) context.getBean("programmer");
+//        obj.code();
+
+//        Desktop desk = (Desktop) context.getBean("deskId");
     }
 }

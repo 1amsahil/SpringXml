@@ -19,7 +19,7 @@
 
 
 
-        <bean id = "programmer" class = "com.Eternity.code.Programmer">
+        <bean id = "programmer" class = "com.Eternity.code.Programmer" autowire="byName">
 <!--6-->
 <!--            <constructor-arg index="0" value="24" />-->
 <!--            <constructor-arg index="1" ref="lapId" />-->
@@ -29,9 +29,10 @@
 
             <property name="com" ref="lapId"/>
 
+
         </bean>
 
     <bean id = "lapId" class="com.Eternity.code.Laptop"/>
-    <bean id="deskId" class="com.Eternity.code.Desktop"/>
+    <bean id = "deskId" class="com.Eternity.code.Desktop" lazy-init="true" />
 
 </beans>
