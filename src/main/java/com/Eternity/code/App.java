@@ -10,6 +10,7 @@ public class App
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 
         Programmer obj = (Programmer) context.getBean("programmer");
-        obj.code();
+
+        System.out.println(obj.getAge());
     }
 }

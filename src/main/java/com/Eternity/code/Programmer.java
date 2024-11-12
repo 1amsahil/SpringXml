@@ -2,24 +2,17 @@ package com.Eternity.code;
 
 public class Programmer {
 
-    public Programmer()
+    private int age;
+
+    public Programmer(int age, Laptop lap)
     {
-        System.out.println("Object Created ");
-    }
+        System.out.println("Para Constructor Called");
+        this.age = age;
 
-    private Laptop lap;
-
-    public Laptop getLap() {
-        return lap;
-    }
-
-    public void setLap(Laptop lap) {
-        this.lap = lap;
-    }
-
-    public void code()
-    {
-        System.out.println("Coding");
         lap.Compile();
+    }
+
+    public int getAge() {
+        return age;
     }
 }
