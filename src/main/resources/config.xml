@@ -15,8 +15,12 @@
 <!--    </bean>-->
 
         <bean id = "programmer" class = "com.Eternity.code.Programmer">
-            <constructor-arg value="24" />
-            <constructor-arg ref="lapId" />
+<!--            <constructor-arg index="0" value="24" />-->
+<!--            <constructor-arg index="1" ref="lapId" />-->
+
+            <constructor-arg name="age" value="24" />
+            <constructor-arg name="lap" ref="lapId" />
+
         </bean>
 
 
