@@ -32,7 +32,7 @@
 
         </bean>
 
-    <bean id = "lapId" class="com.Eternity.code.Laptop"/>
+    <bean id = "lapId" class="com.Eternity.code.Laptop" primary="true"/>
     <bean id = "deskId" class="com.Eternity.code.Desktop" lazy-init="true" />
 
 </beans>

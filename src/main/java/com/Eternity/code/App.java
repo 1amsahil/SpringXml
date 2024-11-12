@@ -12,6 +12,7 @@ public class App
 //        Programmer obj= (Programmer) context.getBean("programmer");
 //        obj.code();
 
-//        Desktop desk = (Desktop) context.getBean("deskId");
+        Computer com = context.getBean(Computer.class);
+        Desktop desk = context.getBean(Desktop.class);
     }
 }
